@@ -149,7 +149,7 @@ write.csv(sub_gbm, file = "sub_gbm.csv", row.names = F)
 # print(dl_gridperf)
 
 
-# with optimum parapeters
+# with optimum parameters
 
 system.time(
   dlearning.model <- h2o.deeplearning(y = y.dep,
